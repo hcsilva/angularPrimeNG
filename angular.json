@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "projetoNGPrime"
+    }
+  },
+  "defaultProject": "projetoNGPrime",
+  "cli": {
+    "analytics": "d91d6bad-1009-493a-8ceb-5bd0e93665d1"
+  }
 }
