@@ -1,0 +1,16 @@
+<form>
+    <div>
+        <label>Nome:</label>
+        <input type="text" name="nome" [(ngModel)]="usuario.nome" />
+    </div>
+    <div style="margin-top: 5px;">
+        <label>Email:</label>
+        <input type="text" name="email" [(ngModel)]="usuario.email" />
+    </div>
+
+    <div style="margin-top: 10px;">
+        <button (click)="salvar()">
+            Salvar
+        </button>
+    </div>
+</form>
